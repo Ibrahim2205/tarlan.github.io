@@ -1,0 +1,79 @@
+/* Спецификации */
+
+* {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	max-width: 1806px;
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-grey {
+	color: #b7b7b8;
+}
+
+.header-content-item {
+	background: url(../img/header.png) no-repeat;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 104;
+}
+
+.logo {
+	color: #959597;
+	font-size: 26px;
+	font-weight: 800;
+}
+
+.logo span {
+	font-weight: 100;
+}
+
+.user-menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.icon-main i {
+	font-size: 22px;
+	padding-right: 26px;
+}
+
+.sidebar {
+	background-image: url(../img/personal-area.png);
+	width: 308px;
+	height: 2210px;
+}
+
+.sidebar-user {
+	padding: 8px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar-user-right {
+	margin-left: 9px;
+}
+
+.sidebar-username {
+	font-size: 24px;
+}
+
+.personal-area {
+	font-size: 14px;
+}
+
